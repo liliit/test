@@ -1,0 +1,28 @@
+--将table2所有的字段数据 添加到table1,table1 不必存在，table2 
+--select * into table1 from tabl2
+--select colum into table1 from tabl2
+
+--将table2所有的字段数据 添加到table1,table1 ,table2 需要存在
+--insert into table1 select * from tabl2;
+--insert into table1(Validity) select Validity from tabl2;
+
+
+
+推荐几门微信小程序学习的免费课
+微信小程序框架的制作 https://ke.qq.com/course/367530?tuin=2b10d56
+微信小程序前端程序设计和JS入门到精通  https://ke.qq.com/course/382767?tuin=2b10d56
+零基础和有基础如何学习微信小程序  https://ke.qq.com/course/376701?tuin=2b10d56
+微信小程序样式开发入门  https://ke.qq.com/course/368047?tuin=2b10d56
+
+
+                        <el-submenu v-for="(item,index) in buttons" index="1">
+                            <template slot="title">
+                                <i class="el-icon-menu"></i>
+                                <span>{{item.name}}</span>
+                            </template>
+                            <el-menu-item-group v-for="(item,index) in buttons">
+                                <el-menu-item index="1-2">
+                                    选项2
+                                </el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
